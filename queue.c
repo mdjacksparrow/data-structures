@@ -23,11 +23,11 @@ void create(){
 void enq(){
 	int x;
 	if (last < MAX){
-			printf("Enter the element to push:");
-			scanf("%d", &x);
-			last += 1;
-			a[last] = x;
-			n = last;
+		printf("Enter the element to push:");
+		scanf("%d", &x);
+		last += 1;
+		a[last] = x;
+		n = last;
 	}
 	else
 		printf("Queue limit is reached");
