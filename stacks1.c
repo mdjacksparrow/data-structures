@@ -3,8 +3,9 @@
 #define MAX 20
 int opt, a[20], i, top = 0, n;
 void create(){
-	printf("\nEnter the limit of the stack: ");
+	printf("\n Enter the length of the stack: ");
 	scanf("%d", &n);
+	printf("\n Enter the elements:\n");
 	if (n < MAX){
 		for (i = 0; i < n; i++){
 			scanf("%d", & a[i]);
