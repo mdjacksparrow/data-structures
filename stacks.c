@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #define MAX 20
 int opt, a[20], i, top = 0, n;
 void create(){
@@ -68,7 +67,7 @@ int main(){
 			case 2: push(); break;
 			case 3: pop(); break;
 			case 4: display(); break;
-			case 0: return;
+			case 0: return (0);
 			default: printf("\n Invalid input!");
 		}
 	}
